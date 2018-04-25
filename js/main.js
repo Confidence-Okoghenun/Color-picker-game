@@ -12,7 +12,7 @@ var hardButton = document.querySelector("#hard");
 
 resetButton.addEventListener("click", function() {
   resetButton.textContent = "New Color";
-  h1.style.background = "#steelblue";
+  h1.style.background = "steelblue";
   colors = generateRandomColors(numSquares);
   messageDisplay.textContent = "";
   pickedColor = pickColor();
